@@ -13,7 +13,6 @@ function* createIdGenerator(){
 }
 const idGenerator = createIdGenerator();
 const btnId = document.querySelector('.btn-id');
-console.log(btnId);
 btnId.addEventListener('click', ()=>{
     idGenerator.next();
 });
