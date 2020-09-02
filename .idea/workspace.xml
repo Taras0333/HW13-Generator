@@ -22,6 +22,9 @@
       <change beforePath="$PROJECT_DIR$/../HW10-Events/sounds/14741_1460058298.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW10-Events/sounds/19117_MusicBass_DIGIJ03-93-2.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW10-Events/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cursor" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../cursor.pub" beforeDir="false" />
     </list>
@@ -40,7 +43,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gxKF1dhXBILu1ARSnGNWsc1ry2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -64,6 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1599050696088</updated>
       <workItem from="1599050697350" duration="4621000" />
+      <workItem from="1599063086454" duration="12000" />
+      <workItem from="1599063109991" duration="317000" />
     </task>
     <servers />
   </component>
@@ -80,6 +85,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1599053614107">
