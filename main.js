@@ -3,7 +3,7 @@ function* createIdGenerator(){
 
 
 
-    for(let i = 0; i <= Infinity; i++){
+    for(let i = 1; i <= Infinity; i++){
         yield i;
         const cont = document.createElement('div');
         cont.className = 'inner-cont';
@@ -12,36 +12,11 @@ function* createIdGenerator(){
     }
 }
 const idGenerator = createIdGenerator();
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
-console.log(idGenerator.next());
+const btnId = document.querySelector('.btn-id');
+console.log(btnId);
+btnId.addEventListener('click', ()=>{
+    idGenerator.next();
+});
+
 
 
