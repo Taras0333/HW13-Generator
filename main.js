@@ -4,11 +4,12 @@ function* createIdGenerator(){
 
 
     for(let i = 1; i <= Infinity; i++){
-        yield i;
         const cont = document.createElement('div');
         cont.className = 'inner-cont';
        cont.innerHTML = `<h3>${i}</h3>`
         container.append(cont);
+        yield i;
+       
     }
 }
 const idGenerator = createIdGenerator();
@@ -25,15 +26,17 @@ function* incline(action){
     if(action === 'up'){
         const par = document.querySelector('.par');
         for(let i = getSize(); i < Infinity; i++){
-            yield i;
             par.style.fontSize = getSize() + 1 + 'px';
+            yield i;
+            
         }
     }
     else if(action === 'down'){
         const par = document.querySelector('.par');
         for(let i = getSize(); i > 0; i--){
-            yield i;
             par.style.fontSize = getSize() - 1 + 'px';
+            yield i;
+            
         }
     }
 
