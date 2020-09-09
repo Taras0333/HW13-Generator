@@ -17,14 +17,14 @@ const btnId = document.querySelector('.btn-id');
 btnId.addEventListener('click', ()=>{
     idGenerator.next();
 });
+const par = document.querySelector('.par');
 function getSize(){
-    const par = document.querySelector('.par');
     let size = parseInt(par.style.fontSize);
     return size;
 }
 function* incline(action){
     if(action === 'up'){
-        const par = document.querySelector('.par');
+       
         for(let i = getSize(); i < Infinity; i++){
             par.style.fontSize = getSize() + 1 + 'px';
             yield i;
@@ -32,7 +32,7 @@ function* incline(action){
         }
     }
     else if(action === 'down'){
-        const par = document.querySelector('.par');
+        
         for(let i = getSize(); i > 0; i--){
             par.style.fontSize = getSize() - 1 + 'px';
             yield i;
